@@ -1,0 +1,12 @@
+[
+ "django__django-10914",
+ "django__django-13297",
+ "django__django-12193",
+ "sympy__sympy-15017",
+ "sympy__sympy-13372",
+ "sphinx-doc__sphinx-9698",
+ "pytest-dev__pytest-7521",
+ "pytest-dev__pytest-7982",
+ "scikit-learn__scikit-learn-13496",
+ "pydata__xarray-4356"
+]

@@ -1,0 +1,5 @@
+anthropic>=0.83
+openai>=2.0
+pandas>=1.5        # only for SWE-bench Verified
+pyarrow            # only for SWE-bench Verified (parquet)
+pytest>=7          # tests
