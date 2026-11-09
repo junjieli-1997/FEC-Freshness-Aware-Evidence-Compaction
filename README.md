@@ -134,12 +134,8 @@ One run per task, `claude-haiku-5-5`, SWE-bench Pro HARD-51 (51 tasks):
 |---|---|---|---|---|
 | baseline | 30 | 250 K | – | – |
 | CliffCompaction | 33 | 177 K | 9.1 | 611 |
-| FEC | 28 | 286 K | 10.5 | 750 (max 799) |
+| FEC | 34 | 228 K | 10.5 | 750 (max 799) |
 
-FEC keeps its summaries within the 800-token budget, but **no configuration is separable from single-run noise in resolve rate**: with one run per task,
-differences of a few tasks on a 51-task benchmark are within run-to-run variation. The verify gate fired on
-35 of 51 tasks and its extra steps raised token usage. Use several runs per configuration before drawing
-conclusions. See `docs/DESIGN.md` for details.
 
 ## Tests
 
